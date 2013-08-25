@@ -11,6 +11,7 @@
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
   </head>
   <body>
+	
     <div id="container">
       <div id="main" role="main">
         <header>
@@ -20,9 +21,8 @@
         <span><a title="网站首页" class="" href="/">首页</a></span>
         <span><a title="文章分类" class="" href="/categories/">分类</a></span>
         <span><a title="标签索引" class="" href="/tags/">标签</a></span>
-        <!--<span><a title="友情链接" class="" href="/links/">链接</a></span>-->
         <span><a title="留言交流" class="" href="/guestbook/">留言</a></span>
-        <span><a title="关于站长" class="" href="/about/">关于</a></span>
+        <span><a title="关于我" class="" href="/about/">关于</a></span>
         </nav>
         <article class="content">
         {{ content }}
@@ -32,7 +32,7 @@
     <footer>
         <p><small>
             <a href="http://github.com/{{ site.github }}/forwind.github.com/new/master/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/{{ site.github }}/forwind.github.com/edit/master/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a href="/about/">{{ site.author }}</a> @ <a href="http://github.com/{{ site.github }}/forwind.github.com" target="_blank" title="项目主页">GitHub</a>
-             | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
+             | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2013 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
 {% if site.beian %}
              | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a>
 {% endif %}
