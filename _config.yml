@@ -1,6 +1,7 @@
 markdown: rdiscount
 permalink: /:categories/:year/:month/:day/:title 
 url: http://forwind.github.com
+img_url: http://forwind.github.com/assets/images
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
