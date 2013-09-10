@@ -21,8 +21,8 @@ duoshuo: forwind
 weibo: 2754399277
 #twitter : username
 #feedburner : feedname
-about : "This my blog."
+about : "This is my blog."
 
-production_url : http://username.github.io
+#production_url : http://username.github.io
 
   
